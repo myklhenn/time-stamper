@@ -1,0 +1,30 @@
+{
+  "name": "time-stamper",
+  "version": "0.1.0",
+  "description": "time-stamper ==============================",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myklhenn/time-stamper.git"
+  },
+  "author": "Michael Henning",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myklhenn/time-stamper/issues"
+  },
+  "homepage": "https://github.com/myklhenn/time-stamper#readme",
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-route": "^1.5.7",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.3"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-link-html": "^0.1.2"
+  }
+}
