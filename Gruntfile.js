@@ -7,10 +7,10 @@ module.exports = function(grunt) {
         options: {
           port: 9001,
           keepalive: true,
-          open: {
-            target: 'http://localhost:9001',
-            appName: 'open'
-          }
+          // open: {
+          //   target: 'http://localhost:9001',
+          //   appName: 'open'
+          // }
           // (specify root directory option here if needed)
         }
       }
@@ -24,7 +24,7 @@ module.exports = function(grunt) {
           '**/app.js'
         ],
         cssFiles: [
-          // 'content/css/styles.css'
+          '**/assets/css/style.css'
         ],
         targetHtml: ['index.html']
       }
