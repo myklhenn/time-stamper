@@ -3,9 +3,13 @@
 
   <head>
     <title>time-stamper</title>
+    <base href="/" />
+
+
     <!-- begin:js -->
     <script src="node_modules/angular/angular.min.js"></script>
     <script src="node_modules/angular-route/angular-route.min.js"></script>
+    <script src="scripts/controllers.js"></script>
     <script src="scripts/app.js"></script>
     <!-- end:js -->
 
@@ -14,8 +18,9 @@
     <!-- end:css -->
   </head>
 
-  <body>
-
+  <body ng-app="App">
+    <!-- ANGULAR DYNAMIC CONTENT -->
+    <div ng-view></div>
   </body>
 
 </html>

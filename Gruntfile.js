@@ -21,6 +21,7 @@ module.exports = function(grunt) {
           '**/angular.min.js',
           '**/angular-route.min.js',
           // '**/angular-animate.min.js',
+          '**/controllers.js',
           '**/app.js'
         ],
         cssFiles: [
