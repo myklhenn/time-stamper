@@ -22,10 +22,13 @@ module.exports = function(grunt) {
           '**/angular-route.min.js',
           // '**/angular-animate.min.js',
           '**/controllers.js',
-          '**/app.js'
+          '**/app.js',
+          '**/jquery.min.js',
+          '**/bootstrap.min.js'
         ],
         cssFiles: [
-          '**/assets/css/style.css'
+          '**/assets/css/style.css',
+          '**/bootstrap.min.css'
         ],
         targetHtml: ['index.html']
       }

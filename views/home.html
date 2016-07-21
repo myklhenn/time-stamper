@@ -1,0 +1,51 @@
+<!--NAVBAR-->
+<div class="navbar navbar-default navbar-static-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">TimeStamper</a>
+    <ul class="nav navbar-nav navbar-right">
+      <li>
+        <a href="#">Sort</a>
+      </li>
+      <li>
+        <a href="#">Search</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!--STAMP LIST-->
+<div class="container">
+  <div class="panel-group" id="stamplist" role="tablist">
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="stamp1">
+        <p class="panel-title">
+          <strong>08:34:00PM | 2016-08-14</strong>
+          <small>Title</small>
+          <!--<span class="pull-right label label-default">Label</span> -->
+          <a class="collapsed pull-right" role="button" data-toggle="collapse" data-parent="#stamplist" href="#collapse1">
+            <span class="glyphicon glyphicon-edit"></span>
+          </a>
+        </p>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse" role="tabpanel">
+        <!--STAMP EDITOR-->
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Start Time</label>
+                <input type="datetime-local" class="form-control" id="exampleInputEmail1" placeholder="">
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="exampleInputEmail1">End Time</label>
+                <input type="datetime-local" class="form-control" id="exampleInputEmail1" placeholder="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
